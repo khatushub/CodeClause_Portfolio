@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero .front img{
+    width: 450px;
+    height: 550px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin-left: 450px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.hero .info h1{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.hero .info p{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    align-items: justify;
+    margin-left: 7px;
+}

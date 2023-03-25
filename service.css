@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .elements img{
+    width: 405.8px;
+    height: 250px;
+}
+
+.hero .elements{
+    width: 30vw;
+    height: 70vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 25px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    transition: 0.2s ease-in-out;
+}
+
+.hero .elements:hover{
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    transition: 0.2s ease-in-out;
+}
+
+.hero .elements h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.hero .elements p{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    text-align: justify;
+}
